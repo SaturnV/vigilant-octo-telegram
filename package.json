@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.coffee"
+    "test": "npx mocha --require coffeescript/register test/*.coffee"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/SaturnV/vigilant-octo-telegram#readme",
   "dependencies": {
-    "bluebird": "^3.5.5",
+    "bluebird": "^3.7.2",
     "coffeescript": "^1.12.7",
-    "lodash": "^4.17.11",
-    "mocha": "^6.1.4"
+    "lodash": "^4.17.20",
+    "mocha": "^8.2.0"
   }
 }
